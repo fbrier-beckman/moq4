@@ -40,11 +40,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Castle.Core" Version="4.4.0" />
+		<PackageReference Include="Castle.Core" Version="4.4.1" />
 		<PackageReference Include="IFluentInterface" Version="2.1.0" PrivateAssets="All" />
 		<PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" PrivateAssets="All" />
-		<PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.1" />
-		<PackageReference Include="TypeNameFormatter.Sources" Version="1.0.0" PrivateAssets="All" />
+		<PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
+		<PackageReference Include="TypeNameFormatter.Sources" Version="1.0.1" PrivateAssets="All" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -106,6 +106,10 @@
 
 	<ItemGroup>
 		<None Include="$(SolutionDir)moq-icon.png" Pack="true" PackagePath="moq.png" Visible="False" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Update="GitInfo" Version="2.1.2" />
 	</ItemGroup>
 
 	<Target Name="Test" />

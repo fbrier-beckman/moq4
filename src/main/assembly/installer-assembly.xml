@@ -20,7 +20,7 @@
     <fileSet>
       <directory>target</directory>
       <lineEnding>keep</lineEnding>
-      <outputDirectory>target/Release</outputDirectory>
+      <outputDirectory>${artifactId}-${version}</outputDirectory>
 	  <includes>
 	  <include>Moq.dll</include>
 	  </includes>

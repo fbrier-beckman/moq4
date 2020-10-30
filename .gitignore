@@ -1,6 +1,7 @@
 out
 bin
 obj
+target
 *.suo
 *.user
 *.cache
